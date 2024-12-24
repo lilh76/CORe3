@@ -1,0 +1,31 @@
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 50000
+
+runner: "episode"
+
+buffer_size: 5000
+
+target_update_interval_or_tau: 0.005
+
+agent_output_type: "q"
+learner: "q_learner"
+
+agent: "multi_head"
+handle_preference_input_method: "rnn" 
+preference_hidden_dim: 4
+n_feature_extractor_layer: 1 
+n_head_layer: 1 
+
+use_world_model: True
+world_model_type: "table"
+world_model_update_newhead: True
+use_stochastic_world_model: True
+n_world_models: 5
+learn_world_model_interval: 50000
+batch_size_learn_world_model: 5000
+epoch_learn_world_model: 500
+lr_model: 0.0001
+
+name: "dqn"

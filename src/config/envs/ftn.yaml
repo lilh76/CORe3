@@ -1,0 +1,29 @@
+env: "ftn"
+
+env_args:
+  key: "ft7-v1" 
+  time_limit: 8
+  env_name: "ftn"
+
+max_n_obj: 6
+test_preference_step_size: 
+  1: 0.001
+  2: 0.001
+  3: 0.001
+  4: 0.005
+  5: 0.02
+  6: 0.05
+
+epsilon_start: 0.8
+epsilon_anneal_time: 100000
+target_update_interval_or_tau: 0.005
+lr: 0.0003
+buffer_size: 10000
+n_feature_extractor_layer: 4
+n_head_layer: 1
+hidden_dim: 512
+batch_size: 32
+save_model_interval: 100000
+
+t_max: [100000,100000,100000,100000,100000]
+learning_obj_lst: [[0,1],[1,2],[2,3],[3,4],[4,5]]

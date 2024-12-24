@@ -1,0 +1,19 @@
+env: "mujoco"
+
+env_args:
+  key: "MO-Hopper-v2"  
+  time_limit: 500 
+  env_name: "mujoco"
+
+n_preference_lst: [1] 
+max_n_obj: 5
+test_preference_step_size: 
+  1: 0.001
+  2: 0.001
+  3: 0.001
+  4: 0.005
+  5: 0.02
+  6: 0.05
+
+t_max: [500000,500000,500000,500000,500000]
+learning_obj_lst: [[0,3],[3,1],[1,2],[2,4],[4,0]]

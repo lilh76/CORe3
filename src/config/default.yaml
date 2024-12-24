@@ -1,0 +1,38 @@
+runner: "episode" 
+mac: "basic_mac" 
+env_args: {} 
+batch_size_run: 1 
+test_nepisode: 32 
+test_interval: 20000 
+
+log_interval: 2000 
+runner_log_interval: 2000 
+learner_log_interval: 2000 
+t_max: [50000] 
+use_cuda: True 
+
+use_tensorboard: True 
+save_model: True 
+save_model_interval: 100000 
+checkpoint_path: "" 
+evaluate: False 
+local_results_path: "results" 
+
+gamma: 0.99
+batch_size: 32 
+buffer_size: 32 
+optim_type: "Adam" 
+lr: 0.0005 
+weight_decay: 0
+optim_alpha: 0.99 
+optim_eps: 0.00001
+grad_norm_clip: 10 
+
+use_her: True
+weight_num: 3
+
+hidden_dim: 64 
+
+seed: 0
+
+oracle: False

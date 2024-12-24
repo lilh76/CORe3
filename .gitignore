@@ -1,0 +1,62 @@
+# lilh
+old*/
+results*/
+smac/
+*.sh
+*.txt
+*.png
+mario/
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore dependencies (e.g., Node modules, Python virtual environments)
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore build output and logs
+build/
+dist/
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore database files
+*.sqlite3
+
+# Ignore compiled binaries and executables
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore package-lock.json for Node.js projects
+package-lock.json
+
+# Ignore editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+
+# Ignore miscellaneous files and directories
+.cache/
+logs/
+*.swp
+*.swo
+
+# Ignore configuration files that may contain sensitive information
+config.js
+config.json
+
+!requirements.txt
+!environment.yaml

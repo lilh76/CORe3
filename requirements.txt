@@ -1,0 +1,15 @@
+numpy==1.21.5
+sacred==0.8.0
+pyyaml==5.4.1
+gym==0.17.2
+pymoo==0.6.0.1
+tensorboard==2.11.2
+tensorboard_logger==0.1.0
+protobuf==3.20.0
+tensorboard==2.11.2
+torch==1.12.0
+torchaudio==0.12.0
+torchvision==0.13.0
+mujoco-py==2.1.2.14
+cython==3.0.0a10
+

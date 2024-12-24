@@ -1,0 +1,45 @@
+runner: "episode"
+
+buffer_size: 2000000
+target_update_interval_or_tau: 0.005
+
+agent: "td3"
+
+mac: "continuous_mac"
+batch_size: 256
+lr: 0.0003
+
+learner: "td3_learner"
+critic_type: "td3_critic"
+
+optim_type: "adam"
+actor_freq: 10
+
+action_selector: "continuous"
+
+expl_noise: 0.1 
+policy_noise: 0.2
+noise_clip: 0.5
+start_timesteps: 10000
+
+handle_preference_input_method: "rnn" 
+preference_hidden_dim: 4
+n_feature_extractor_layer: 2 
+n_head_layer: 2 
+hidden_dim: 400
+
+use_world_model: True
+world_model_type: "mlp"
+world_model_update_newhead: True
+use_stochastic_world_model: True
+n_world_models: 5
+learn_world_model_interval: 30000
+batch_size_learn_world_model: 5000
+epoch_learn_world_model: 2000
+lr_model: 0.0001
+
+name: "td3"
+
+gamma: 0.995
+
+

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: grid
+Version: 1.0.0
+Summary: Grid Environment
+Author: Lihe Li
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
