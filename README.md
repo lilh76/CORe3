@@ -1,6 +1,6 @@
 # Continual Multi-Objective Reinforcement Learning via Reward Model Rehearsal
 
-This repository contains implementation for Continual Multi-Objective Reinforcement Learning via Reward Model Rehearsal (CORe3).
+This repository contains official implementation for Continual Multi-Objective Reinforcement Learning via Reward Model Rehearsal (CORe3).
 
 ## Environment Installation
 Python version: $3.7$
